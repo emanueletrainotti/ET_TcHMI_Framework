@@ -1,0 +1,217 @@
+{
+    "$schema": "../.hmiframework/Schema/ControlDescription.Schema.json",
+    "apiVersion": 1,
+    "name": "TcHmiHeader",
+    "namespace": "TcHmi.Controls.BaseTemplate",
+    "displayName": "Header Bar",
+    "version": {
+        "full": "1.12.750.1",
+        "major": 1,
+        "minor": 12,
+        "build": 750,
+        "revision": 1
+    },
+    "visible": true,
+    "themeable": "Standard",
+    "base": "TcHmi.Controls.System.TcHmiControl",
+    "description": "A Control which displays and manages other controls.",
+    "properties": {
+        "containerControl": false,
+        "geometry": {
+            "width": 320,
+            "height": 96
+        }
+    },
+    "icons": [
+        {
+            "name": "Icons/16x16.png",
+            "width": 16,
+            "height": 16
+        },
+        {
+            "name": "Icons/24x24.png",
+            "width": 24,
+            "height": 24
+        },
+        {
+            "name": "Icons/32x32.png",
+            "width": 32,
+            "height": 32
+        },
+        {
+            "name": "Icons/64x64.png",
+            "width": 64,
+            "height": 64
+        }
+    ],
+    "template": "Template.html",
+    "dependencyFiles": [
+        {
+            "name": "TcHmiHeader.js",
+            "type": "JavaScript",
+            "description": "Contains all the main logic."
+        },
+        {
+            "name": "Style.css",
+            "type": "Stylesheet",
+            "description": "Theme independent style"
+        }
+    ],
+    "themes": {
+        "Base": {
+            "resources": [
+                {
+                    "name": "Themes/Base/Style.css",
+                    "type": "Stylesheet",
+                    "description": "Theme dependent style"
+                }
+            ]
+        },
+        "Base-Dark": {
+            "resources": [
+                {
+                    "name": "Themes/Base-Dark/Style.css",
+                    "type": "Stylesheet",
+                    "description": "Theme dependent style"
+                }
+            ]
+        }
+    },
+    "attributes": [
+        {
+            "name": "data-tchmi-header-items",
+            "propertyName": "HeaderItems",
+            "propertySetterName": "setHeaderItems",
+            "propertyGetterName": "getHeaderItems",
+            "displayName": "HeaderItems",
+            "visible": true,
+            "themeable": "None",
+            "displayPriority": 10,
+            "type": "tchmi:framework#/definitions/TcHmi.Controls.BaseTemplate.TcHmiHeader.HeaderItems",
+            "category": "Items",
+            "description": "Items wich will be displayed in the Control",
+            "readOnly": false,
+            "bindable": true,
+            "heritable": true,
+            "allowSymbolExpressionsInObject": true,
+            "defaultValue": [
+                {
+                    "ItemType": "Image",
+                    "Priority": "2",
+                    "ItemAlign": "left",
+                    "prefWidth": 288,
+                    "prefWidthUnit": "px",
+                    "prefHeight": 95,
+                    "prefHeightUnit": "px",
+                    "minWidth": 128,
+                    "minWidthUnit": "px",
+                    "classList": [],
+                    "accessRights": [],
+                    "Image": "content path",
+                    "AltText": "Beckhoff",
+                    "targetRegion": "",
+                    "targetContent": "content path"
+                },
+                {
+                    "ItemType": "Text",
+                    "Priority": "1",
+                    "ItemAlign": "left",
+                    "prefWidth": 288,
+                    "prefWidthUnit": "px",
+                    "prefHeight": 95,
+                    "prefHeightUnit": "px",
+                    "minWidth": 128,
+                    "minWidthUnit": "px",
+                    "classList": [],
+                    "accessRights": [],
+                    "text": "Application Name",
+                    "targetRegion": "",
+                    "targetContent": "content path"
+                },
+                {
+                    "ItemType": "EventLine",
+                    "Priority": "5",
+                    "ItemAlign": "right",
+                    "prefWidth": 600,
+                    "prefWidthUnit": "px",
+                    "prefHeight": 48,
+                    "prefHeightUnit": "px",
+                    "minWidth": 288,
+                    "minWidthUnit": "px",
+                    "classList": [],
+                    "accessRights": [],
+                    "Filter": [],
+                    "targetRegion": "",
+                    "targetContent": "content path"
+                },
+                {
+                    "ItemType": "UserManagement",
+                    "Priority": "3",
+                    "ItemAlign": "right",
+                    "prefWidth": 288,
+                    "prefWidthUnit": "px",
+                    "prefHeight": 48,
+                    "prefHeightUnit": "px",
+                    "minWidth": 176,
+                    "minWidthUnit": "px",
+                    "classList": [],
+                    "accessRights": [],
+                    "advanced": true
+                },
+                {
+                    "ItemType": "Time",
+                    "Priority": "4",
+                    "ItemAlign": "right",
+                    "prefWidth": 128,
+                    "prefWidthUnit": "px",
+                    "prefHeight": 48,
+                    "prefHeightUnit": "px",
+                    "minWidth": 96,
+                    "minWidthUnit": "px",
+                    "classList": [],
+                    "accessRights": []
+                }
+            ],
+            "defaultValueInternal": null
+        },
+        {
+            "name": "data-tchmi-expandable",
+            "propertyName": "Expandable",
+            "propertySetterName": "setExpandable",
+            "propertyGetterName": "getExpandable",
+            "displayName": "Expandable",
+            "visible": true,
+            "themeable": "Standard",
+            "displayPriority": 10,
+            "type": "tchmi:general#/definitions/Boolean",
+            "category": "Common",
+            "description": "Enables expandable button.",
+            "readOnly": false,
+            "bindable": true,
+            "heritable": true,
+            "defaultValue": null,
+            "defaultValueInternal": true
+        }
+    ],
+    "attributeCategories": [
+        {
+            "name": "Items",
+            "displayPriority": 210,
+            "defaultCollapsed": false,
+            "description": "Header Item attributes of this control."
+        },
+        {
+            "name": "Navigation",
+            "displayPriority": 210,
+            "defaultCollapsed": false,
+            "description": "Navigation attributes of this control."
+        }
+    ],
+    "functions": [],
+    "events": [],
+    "dataTypes": [
+        {
+            "schema": "Schema/Types.Schema.json"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+﻿<div id="Events" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-height="100" data-tchmi-height-unit="%">
+
+  <div id="TcHmiGrid_Events_1" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-height-mode="Value">
+    
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  },
+  {
+    "width": 10.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  },
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+    <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" id="TcHmiTextblock_Events_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="48" data-tchmi-height-unit="px" data-tchmi-left="32" data-tchmi-left-unit="px" data-tchmi-text="Events" data-tchmi-top="16" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-right="0">
+      <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+        [
+        "headline-2"
+        ]
+      </script>
+    </div>
+    <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" id="TcHmiContainer_Events_1" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height-unit="px" data-tchmi-left="16" data-tchmi-left-unit="px" data-tchmi-top="64" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right-unit="px" data-tchmi-right="16" data-tchmi-bottom="16">
+
+
+      <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
+        [
+        "background-container"
+        ]
+      </script>
+
+      <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiEventGrid_Events_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiEventGrid" data-tchmi-height-unit="px" data-tchmi-left="16" data-tchmi-left-unit="px" data-tchmi-show-menu-bar="True" data-tchmi-top="16" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right="16" data-tchmi-bottom="16">
+        <script data-tchmi-target-attribute="data-tchmi-filter" type="application/json">
+          []
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-columns" type="application/json">
+          [
+          {
+          "columnName": "type"
+          },
+          {
+          "columnName": "severity"
+          },
+          {
+          "columnName": "timeAndDateRaised"
+          },
+          {
+          "columnName": "text"
+          }
+          ]
+        </script>
+        <script data-tchmi-target-attribute="data-tchmi-sorting" type="application/json">
+          [
+          {
+          "name": "timeRaised",
+          "order": "Descending"
+          }
+          ]
+        </script>
+
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+          {
+          "color": "None"
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+</div>

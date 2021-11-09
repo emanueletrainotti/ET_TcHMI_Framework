@@ -1,0 +1,163 @@
+﻿<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-unit="px" data-tchmi-width="1920" data-tchmi-height-unit="px" data-tchmi-height="1080" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-background-image-width="100" data-tchmi-background-image-height="100">
+  
+<div id="Navigation_Left" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiNavigation" data-tchmi-width="320" data-tchmi-left="0" data-tchmi-top="0" data-tchmi-bottom="0" data-tchmi-target-region="%ctrl%TcHmi_Controls_System_TcHmiRegion_mainRegion_Center%/ctrl%" data-tchmi-navigation-orientation="Vertical" data-tchmi-keep-lowest-level="true" data-tchmi-breadcrumb="%ctrl%Breadcrumb%/ctrl%">
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">[
+"divider",
+"divider-left"
+]
+</script><script data-tchmi-target-attribute="data-tchmi-navigation-structure" type="application/json">[ 
+
+{
+ "name": "%l%L_Start_Page%/l%",
+ "content": "Pages/StartPage.content" ,
+"icon_a": "Themes/Base/Images/Placeholder/placeholder_active.svg",
+"icon_n": "Themes/Base/Images/Placeholder/placeholder_normal.svg",
+"icon_p": "Themes/Base/Images/Placeholder/placeholder_pressed.svg",
+ "accessRights": [
+ {
+ "accessright": "observe",
+ "group": "__SystemUsers",
+"permission": "Allow"
+ },
+{
+ "accessright": "operate",
+ "group": "__SystemUsers",
+ "permission": "Allow"
+ } 
+ ]
+},
+{
+ "name": "%l%L_Events%/l%",
+ "content": "Pages/Events.content" ,
+"icon_a": "Themes/Base/Images/Events/message_active.svg",
+"icon_n": "Themes/Base/Images/Events/message_normal.svg",
+"icon_p": "Themes/Base/Images/Events/message_pressed.svg",
+ "accessRights": [
+ {
+ "accessright": "observe",
+ "group": "__SystemUsers",
+"permission": "Allow"
+ },
+{
+ "accessright": "operate",
+ "group": "__SystemUsers",
+ "permission": "Allow"
+ } 
+ ]
+},
+{
+ "name": "%l%L_Settings%/l%",
+ "content": "Pages/Settings.content" ,
+"icon_a": "Themes/Base/Images/Settings/settings_active.svg",
+"icon_n": "Themes/Base/Images/Settings/settings_normal.svg",
+"icon_p": "Themes/Base/Images/Settings/settings_pressed.svg",
+ "accessRights": [
+ {
+ "accessright": "observe",
+ "group": "__SystemUsers",
+"permission": "Allow"
+ },
+{
+ "accessright": "operate",
+ "group": "__SystemUsers",
+ "permission": "Allow"
+ } 
+ ]
+}
+]</script></div><div id="Header_Top" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiHeader" itemtype":="" "image",="" "priority":="" "2",="" "itemalign":="" "left",="" "prefwidth":="" 288,="" "prefwidthunit":="" "px",="" "prefheight":="" 95,="" "prefheightunit":="" "px",="" "minwidth":="" 128,="" "minwidthunit":="" "px",="" "classlist":="" [],="" "accessrights":="" [],="" "image":="" "content="" path",="" "alttext":="" "beckhoff",="" "targetregion":="" "",="" "targetcontent":="" "content="" path"="" },="" {="" "itemtype":="" "text",="" "priority":="" "1",="" "itemalign":="" "left",="" "prefwidth":="" 288,="" "prefwidthunit":="" "px",="" "prefheight":="" 95,="" "prefheightunit":="" "px",="" "minwidth":="" 128,="" "minwidthunit":="" "px",="" "classlist":="" [],="" "accessrights":="" [],="" "text":="" "application="" name",="" "targetregion":="" "",="" "targetcontent":="" "content="" path"="" },="" {="" "itemtype":="" "eventline",="" "priority":="" "5",="" "itemalign":="" "right",="" "prefwidth":="" 600,="" "prefwidthunit":="" "px",="" "prefheight":="" 48,="" "prefheightunit":="" "px",="" "minwidth":="" 288,="" "minwidthunit":="" "px",="" "classlist":="" [],="" "accessrights":="" [],="" "filter":="" [],="" "targetregion":="" "",="" "targetcontent":="" "content="" path"="" },="" {="" "itemtype":="" "usermanagement",="" "priority":="" "3",="" "itemalign":="" "right",="" "prefwidth":="" 288,="" "prefwidthunit":="" "px",="" "prefheight":="" 48,="" "prefheightunit":="" "px",="" "minwidth":="" 176,="" "minwidthunit":="" "px",="" "classlist":="" [],="" "accessrights":="" [],="" "advanced":="" true="" },="" {="" "itemtype":="" "time",="" "priority":="" "4",="" "itemalign":="" "right",="" "prefwidth":="" 128,="" "prefwidthunit":="" "px",="" "prefheight":="" 48,="" "prefheightunit":="" "px",="" "minwidth":="" 96,="" "minwidthunit":="" "px",="" "classlist":="" [],="" "accessrights":="" []="" }="" ]"="" data-tchmi-height="80" data-tchmi-left="%ctrl%Navigation_Left::Width%/ctrl%" data-tchmi-top="0" data-tchmi-right="0" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px">
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">[
+"divider",
+"divider-top"
+]
+</script><script data-tchmi-target-attribute="data-tchmi-header-items" type="application/json">
+[
+  {
+    "itemType": "Image",
+    "priority": "2",
+    "itemAlign": "Left",
+    "prefWidth": 288.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 95.0,
+    "prefHeightUnit": "px",
+    "minWidth": 128.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "image": "Images/Beckhoff_Logo.svg",
+    "altText": "Beckhoff",
+    "targetRegion": "%ctrl%TcHmi_Controls_System_TcHmiRegion_mainRegion_Center%/ctrl%",
+    "targetContent": "Pages/StartPage.content"
+  },
+  {
+    "itemType": "Text",
+    "priority": "1",
+    "itemAlign": "Left",
+    "prefWidth": 288.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 95.0,
+    "prefHeightUnit": "px",
+    "minWidth": 128.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "text": "TestProject",
+    "targetContent": "content path"
+  },
+  {
+    "itemType": "EventLine",
+    "priority": "5",
+    "itemAlign": "Right",
+    "prefWidth": 800.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 288.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "filter": [
+      {
+        "path": "severity",
+        "comparator": ">=",
+        "value": 0
+      }
+    ],
+    "targetRegion": "%ctrl%TcHmi_Controls_System_TcHmiRegion_mainRegion_Center%/ctrl%",
+    "targetContent": "Pages/Events.content"
+  },
+  {
+    "itemType": "UserManagement",
+    "priority": "3",
+    "itemAlign": "Right",
+    "prefWidth": 288.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 176.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": []
+  },
+  {
+    "itemType": "Time",
+    "priority": "4",
+    "itemAlign": "Right",
+    "prefWidth": 128.0,
+    "prefWidthUnit": "px",
+    "prefHeight": 48.0,
+    "prefHeightUnit": "px",
+    "minWidth": 96.0,
+    "minWidthUnit": "px",
+    "classList": [],
+    "accessRights": [],
+    "timeDisplayLayout": "TimeDateMultiLine"
+  }
+]
+</script></div><div id="TcHmi_Controls_System_TcHmiRegion_mainRegion_Center" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-left="%ctrl%Navigation_Left::Width%/ctrl%" data-tchmi-top="%f%%ctrl%Header_Top::Height%/ctrl%+ 64%/f%" data-tchmi-scrolling="Yes" data-tchmi-bottom="0" data-tchmi-right="0">
+
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json"></script></div><div id="Breadcrumb" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiBreadcrumb" data-tchmi-height="32" data-tchmi-left="%f%%ctrl%TcHmi_Controls_System_TcHmiRegion_mainRegion_Center::Left%/ctrl%+ 16%/f%" data-tchmi-top="%f%%ctrl%Header_Top::Height%/ctrl%+ 16%/f%" data-tchmi-right="%f%%ctrl%TcHmi_Controls_System_TcHmiRegion_mainRegion_Center::Right%/ctrl%+ 16%/f%" data-tchmi-navigationcontrol="%ctrl%Navigation_Left%/ctrl%">
+
+</div>
+</div>

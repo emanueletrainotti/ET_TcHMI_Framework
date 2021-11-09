@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.750.1/runtimes/native1.12-tchmi/Schema/LocalizationDescription.Schema.json",
+  "locale": "en-US",
+  "localizedText": {
+    "Text1": "Hello World!",
+    "Text2": "I'm a localized text.",
+    "L_Start_Page": "Start Page",
+    "L_Events": "Events",
+    "L_Localization": "Localization",
+    "L_Theme": "Theme",
+    "L_Settings": "Settings",
+    "L_SomeUnit": "mm"
+  }
+}
