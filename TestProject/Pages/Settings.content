@@ -240,7 +240,7 @@
 
     </div>
 
-    <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="6" id="TcHmiContainer_Settings_6" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right-unit="px" data-tchmi-right="0" data-tchmi-bottom="0">
+    <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="6" id="TcHmiContainer_Settings_6" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right-unit="px" data-tchmi-right="0" data-tchmi-bottom="0" data-tchmi-bottom-unit="px">
 
 
       <script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">
@@ -248,8 +248,7 @@
         "background-container"
         ]
       </script>
-
-    </div>
+</div>
 
     <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="7" id="TcHmiContainer_Settings_7" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-right-unit="px" data-tchmi-right="0" data-tchmi-bottom="0">
 

@@ -2980,6 +2980,7 @@
         "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.750.1\\runtimes\\native1.12-tchmi",
         "/Beckhoff.TwinCAT.HMI.ResponsiveNavigation": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.ResponsiveNavigation.12.750.1\\runtimes\\native1.12-tchmi",
         "/ET_TcHMI_Framework": "..\\..\\ET_TcHMI_Framework",
+        "/Legacy_Switch": "..\\..\\Packages\\Legacy_Switch.1.0.1\\runtimes\\native1.12-tchmi",
         "/bin": "..\\..\\TestProject\\bin\\",
         "/bin/framework": "..\\..\\TestProject\\bin\\framework",
         "/framework": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.750.1\\runtimes\\native1.12-tchmi"
